@@ -1,0 +1,53 @@
+.testimonials {
+  background-color: $color-Yellow-2;
+
+  &__heading {
+    text-align: center;
+    padding: 10rem 0;
+  }
+
+  &__card {
+    &-container {
+      display: grid;
+      gap: 1.5rem;
+      grid-template-columns: repeat(3, 1fr);
+      @include for-tablet-landscape-up {
+        grid-template-columns: none;
+      }
+    }
+
+    & {
+      text-align: center;
+      &--avatar {
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        margin-bottom: 4rem;
+      }
+
+      &--body {
+        margin: auto;
+        height: 20rem;
+        max-width: 30rem;
+        margin-bottom: 6rem;
+        font-size: 1.3em;
+        color: $color-Very-dark-grayish-blue;
+        line-height: 2;
+      }
+
+      &--data {
+        margin-bottom: 10rem;
+      }
+
+      &--title {
+        font-family: $font-display;
+        margin-bottom: 1rem;
+      }
+
+      &--profession {
+        color: $color-Grayish-blue;
+        font-size: 1.5rem;
+      }
+    }
+  }
+}

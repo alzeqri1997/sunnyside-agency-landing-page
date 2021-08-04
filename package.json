@@ -1,0 +1,23 @@
+{
+  "name": "sunnyside-agency-landing-page-main",
+  "version": "1.0.0",
+  "description": "--",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alzeqri1997/sunnyside-agency-landing-page.git"
+  },
+  "keywords": [
+    "landing",
+    "page"
+  ],
+  "author": "Ahmed Al-zeqri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alzeqri1997/sunnyside-agency-landing-page/issues"
+  },
+  "homepage": "https://github.com/alzeqri1997/sunnyside-agency-landing-page#readme"
+}
