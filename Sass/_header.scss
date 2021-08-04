@@ -1,5 +1,5 @@
 .header {
-  background-image: url(/images/desktop/image-header.jpg);
+  background: url(../images/desktop/image-header.jpg);
   height: 600px;
   background-position: center;
   background-size: cover;
@@ -31,23 +31,30 @@
         transition: all 0.2s;
         font-size: 1.2em;
         cursor: pointer;
+
         @include for-tablet-landscape-up {
           padding: 2rem;
         }
+
         &:hover {
           color: $color-black;
         }
+
         span {
           color: $color-black;
+
           @include for-tablet-landscape-up {
             background-color: $color-Yellow;
           }
+
           background-color: $color-White;
           padding: 1.3rem 3rem;
           border-radius: 3rem;
-          font-family: "Fraunces", serif;
+          font-family: "Fraunces",
+          serif;
           font-weight: 500;
           transition: all 0.2s;
+
           &:hover {
             background-color: $color-Dark-blue;
             color: $color-White;

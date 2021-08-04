@@ -80,7 +80,7 @@ body {
 }
 
 .header {
-  background-image: url(/images/desktop/image-header.jpg);
+  background: url(../images/desktop/image-header.jpg);
   height: 600px;
   background-position: center;
   background-size: cover;
@@ -253,7 +253,7 @@ body {
 }
 
 .main-section__section-2--left-side {
-  background: url(/images/desktop/image-graphic-design.jpg) center;
+  background: url(../images/desktop/image-graphic-design.jpg) center;
   width: 50%;
   height: 55rem;
 }
@@ -265,7 +265,7 @@ body {
 }
 
 .main-section__section-2--right-side {
-  background: url(/images/desktop/image-photography.jpg) center;
+  background: url(../images/desktop/image-photography.jpg) center;
   width: 50%;
   height: 55rem;
 }
