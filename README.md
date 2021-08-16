@@ -1,4 +1,4 @@
-# [Demo](https://alzeqri1997.github.io/sunnyside-agency-landing-page-main/)
+# [Demo](https://alzeqri1997.github.io/sunnyside-agency-landing-page/)
 --
 
 # Screenshots
