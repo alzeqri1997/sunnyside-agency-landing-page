@@ -22,7 +22,7 @@
 
     &--image {
       @include for-tablet-landscape-up {
-        height: 1rem;
+        height: auto;
         order: 1;
       }
 
